@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+            body {
+               
+            }
+            .master {
+                justify-content: center;
+                min-width: 200px;
+            }
+            .h1 {
+                font-size: medium;
+            }
+        </style>
+        <script>
+            function f(){
+
+            }
+        </script>
+    </head>
+    <body>
+        <center>
+        <h1> welcome to HTC Surveys </h1>
+        <div class="master">
+            Name <br> <input type="text" class="enter" id="name" placeholder="Name"> <br>
+            Age <br><input type="number" class="enter" id="age"> <br>
+            Gender <br>
+            <span>
+                <input type="radio" name="gender" class="enter" id="gender" value="m"> Male
+                <input type="radio" name="gender" class="enter" id="gender" value="f"> Female
+                <input type="radio" name="gender" class="enter" id="gender" value="t"> Transgender
+            </span> <br>
+            Address <br> <textarea id="address" cols="30" rows="3"></textarea> <br>
+            E-mail <br><input type="email" class="enter" id="mail"> <br>
+            <span> Services ( Used | Like ) <br> </span>
+            <span>
+                <input type="checkbox" id="used_web_hosting">
+                | <input type="checkbox" id="liked_web_hosting">
+                Web Hosting <br>
+            </span>
+            <span>
+                <input type="checkbox" id="used_gpu_mining">
+                | <input type="checkbox" id="like_gpu_mining">
+                GPU Mining <br>
+            </span>
+            <span>
+                <input type="checkbox" id="used_remote_storage">
+                | <input type="checkbox" id="liked_remote_storage">
+                Remote Storage <br>
+            </span>
+            <span>
+                <input type="checkbox" id="used_machine_learning">
+                | <input type="checkbox" id="liked_machine_learning">
+                Machine Learning <br>
+            </span>
+            <span>
+                <input type="checkbox" id="used_media_streaming">
+                | <input type="checkbox" id="liked_media_streaming">
+                Media Streaming <br>
+            </span>
+            <span>
+                <input type="checkbox" id="used_resource_pooling">
+                | <input type="checkbox" id="liked_resource_pooling">
+                Resource Pooling <br>
+            </span>
+            Suggestions <br> <textarea id="suggestion" cols="30" rows="4"></textarea>
+            <button onclick="f()"> Submit </button>
+            </div>
+            </center>
+    </body>
+</html>
