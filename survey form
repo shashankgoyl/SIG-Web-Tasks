@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LFM</title>
+</head>
+<body>
+    <section>
+     <div class="heading">
+        <h1>survey_form</h1>
+        <h2>learning from mistake</h2>
+        <form >
+            <label >*Name:</label>
+              <div>
+                <input placeholder="enter your name"type="text" name="name" id="name" >
+              </div>
+            <label >*Phone_no.:</label>
+              <div>
+                <input placeholder="enter your phone number"type="number" name="rn" id="rollno">
+              </div>
+            <label >E-mail:</label>
+             <div>
+                <input placeholder="mail-id" type="email" name="personalmailid" id="email">
+             </div> 
+            <label >*DOB:</label>
+            <div><input placeholder="date_of_birth" type="date" name="date" id="dob"></div> 
+            <label >what was your mistake:</label>
+              <div>
+                <input placeholder="your mistake"type="text" name="mistake" id="mistake" >
+              </div> 
+            <label >What you learnt from your mistake:</label>
+              <div>
+                <input placeholder="your learing"type="text" name="leaning" id="learning" >
+              </div>  
+        </form> 
+     </div>
+   </section>
+    
+</body>
+</html>
+<style>
+
+    h1{
+        color:azure;
+        margin:0% 15% 0% 15%;
+    }
+    .heading{
+        margin:0% 24% 0% 37%;
+    }
+    section{
+        margin:5% 20% 0% 20%;
+        background-color: hsl(185, 100%, 42%);
+    }
+</style>
