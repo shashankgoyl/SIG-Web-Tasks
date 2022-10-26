@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM </title>
+</head>
+<body>
+    <div>
+    <h2>REGISTRATION FORM</h2>
+    <form action="/registrar.php">
+        <table>
+         
+        <tr>
+            <th>
+               NAME:
+            </th>
+            <td>
+                <input type="text" placeholder="enter your username">
+            </td>
+        </tr>
+       <br>
+        <tr>
+            <th>
+              Phone no.
+            </th>
+            <td>
+               <input type="number" placeholder="enter your number">
+            </td>
+        </tr>
+       <br>
+        <tr>
+            <th>
+              EMail
+            </th>
+            <td>
+                <input type="mail-id" placeholder="enter your email">
+            </td>
+        </tr>
+       </div>
+       <br>
+       <div>
+        <tr>
+            <th>
+              AGE:
+            </th>
+            <td>
+                <input type="number" placeholder="enter your age">
+            </td>
+        </tr>
+       
+       </div>
+       <div>
+        <tr>
+           <th>
+            Select your City
+           </th>
+<!-- input type select -->
+           <td>
+           <select name="city" id="city">
+           <option value="Delhi">Delhi</option>
+           <option value="mumbai">Mumbai</option>
+           <option value="banglore">Banglore</option>
+           <option value="Chennai">chennai</option>
+           <option value="kolkata">Kolkata</option>
+           <option value="Punjab">PUnjab</option>
+           <option value="Noida">Noida</option>
+           </select>
+           </td>
+
+
+        </tr>
+       <br>
+        <div>
+        <tr>
+            <th>
+                Choose your subject:
+            </th>
+        <td>
+        <br>
+<!-- input type checkbox -->
+        <label for id="phyics">
+            <input type="checkbox" value="physics" name="subject" id="103">math
+            </label>
+            <br>
+     
+            <label for id="computer science">
+             <input type="checkbox" value="computer science" name="subject" id ="103">computer science
+             </label>
+             <br>
+             
+            <label for id="chemistry">
+             <input type="checkbox" value="chemistry" name="subject" id ="104">chemistry
+             </label>
+             <br>
+             
+             <label for id="history">
+             <input type="checkbox" value="history" name="subject" id ="105">history
+             </label>
+             <br>
+             
+            <label for id="english">
+             <input type="checkbox" value="english" name="subject" id ="106">english
+             </label>
+             <br>
+            
+             <label for id="economics">
+             <input type="checkbox" value="economics" name="subject" id ="107">economics
+             <br>
+            
+            </label><label for id="hindi">
+             <input type="checkbox" value="hindi" name="subject" id ="108">hindi
+             </label>
+        </td>
+        </tr>
+        </div>
+         <br>
+        <th>
+        <div> 
+    
+            <label for="comment">
+                QUERIES
+            </label>
+        </th>
+<!-- multi-line text input control -->
+        <td>
+            <textarea name="comment" id="comment"
+                placeholder="any queries regarding addimmision procces">
+            </textarea>
+        </td>
+        </div>
+    
+    </table>
+    </form>
+    <br>
+<!-- submit format -->
+    <div>
+        <input type="submit" value="submit">
+    </div>
+
+</body>
+</html>
