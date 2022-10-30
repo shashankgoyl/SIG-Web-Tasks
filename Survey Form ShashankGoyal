@@ -1,0 +1,100 @@
+<h1 id="title"> Survey Form </h1>
+<h3> Let us know how we can improve FreeCodeCamp </h3>
+<form id="survey-form">
+
+  <div class="form-control">
+    <label for="name" id="label-name">
+      Name :
+    </label>
+    <input type="text" id="name" placeholder="Enter your name" />
+  </div>
+  <div class="form-control">
+    <label for="email" id="label-email">
+      Email :
+    </label>
+    <input type="email" id="email" placeholder="Enter your email" />
+  </div>
+  <div class="form-control">
+    <label for="age" id="label-age">
+      Age :
+    </label>
+    <input type="number" id="age" placeholder="Enter your age" />
+  </div>
+
+  <div class="form-control">
+    <label for="role" id="label-role">
+      Which option best describes your current role? :
+    </label>
+    <select name="role" id="role">
+      <option value="student">Student</option>
+      <option value="intern">Intern</option>
+      <option value="professional">Professional</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+
+  <div class="form-control">
+    <label id="label-attendance">
+      How likely is that you would recommend FreeCodeCamp to a friend?
+    </label>
+    <label for="attend-1" id="label-attend-1">
+      <input type="radio" id="attend-1" name="attend">Definitely</input>
+    </label>
+    <label for="attend-2" id="label-attend-2">
+      <input type="radio" id="attend-2" name="attend">Maybe</input>
+    </label>
+    <label for="attend-3" id="label-attend-3">
+      <input type="radio" id="attend-3" name="attend">Not Sure</input>
+    </label>
+  </div>
+  
+  <div class="form-control">
+    <label for="role" id="label-role">
+      What do you like the most in FCC :
+    </label>
+    <select name="role" id="role">
+      <option value="student">Challenges</option>
+      <option value="intern">Working</option>
+      <option value="professional">Professionalism</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+
+  <div class="form-control">
+    <label>
+ Things that should be improved in the future(Check all that Apply) 
+    </label>
+    <br>
+    <label for="inp-1">
+      <input type="checkbox" name="inp">Training</input>
+    </label>
+    <br>
+    <label for="inp-2">
+      <input type="checkbox" name="inp">The Learning Sessions from Industry Experts</input>
+    </label>
+    <br>
+    <label for="inp-3">
+      <input type="checkbox" name="inp">Community Meetups</input>
+    </label>
+    <br>
+    <label for="inp-4">
+      <input type="checkbox" name="inp">Brown Bag Sessions</input>
+    </label>
+    <br>
+    <label for="inp-5">
+      <input type="checkbox" name="inp">Switching to Hybrid Mode</input>
+    </label>
+    <br>
+    <label for="inp-6">
+      <input type="checkbox" name="inp">Food, Office etc.</input>
+    </label>
+  </div>
+  <div class="button">
+    <button type="reset" value="reset" id="reset">
+      Reset
+    </button>
+    <button type="submit" value="submit" id="submit">
+      Submit
+    </button>
+  </div>
+</form>
